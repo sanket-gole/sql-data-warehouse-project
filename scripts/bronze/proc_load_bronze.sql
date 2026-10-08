@@ -12,7 +12,7 @@ BEGIN
 		FROM 'C:\Users\Sanket\Downloads\sql-data-warehouse-project\sql-data-warehouse-project\datasets\source_crm\cust_info.csv'
 		WITH (
 			FIRSTROW=2,
-			FIELDTERMINATOR = ',',
+			FIELDTERMINATOR = ','
 			TABLOCK
 		);
 		SET @end_time =GETDATE();
@@ -23,7 +23,7 @@ BEGIN
 		FROM 'C:\Users\Sanket\Downloads\sql-data-warehouse-project\sql-data-warehouse-project\datasets\source_crm\prd_info.csv'
 		WITH (
 			FIRSTROW=2,
-			FIELDTERMINATOR = ',',
+			FIELDTERMINATOR = ','
 			TABLOCK
 		);
 
